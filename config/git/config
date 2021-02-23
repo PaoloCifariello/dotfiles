@@ -1,0 +1,12 @@
+# gitconfig
+[user]
+    name = Paolo Cifariello
+    email = paolocifa@gmail.com
+[ui "color"]
+	ui = always
+[color]
+	ui = true
+[github]
+    user = PaoloCifariello
+[alias]
+    s = status --short
