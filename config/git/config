@@ -2,11 +2,19 @@
 [user]
     name = Paolo Cifariello
     email = paolocifa@gmail.com
+[github]
+    user = PaoloCifariello
 [ui "color"]
     ui = always
 [color]
     ui = true
-[github]
-    user = PaoloCifariello
 [alias]
     s = status --short
+[push]
+    # push will only do the current branch, not all branches
+    default = current
+[branch]
+    # set up 'git pull' to rebase instead of merge
+    autosetuprebase = always
+[core]
+    editor = nvim

@@ -1,6 +1,6 @@
 
 set PATH $HOME/.cargo/bin $PATH
-set EDITOR vim
+set EDITOR nvim
 
 starship init fish | source
 
