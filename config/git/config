@@ -18,3 +18,5 @@
     autosetuprebase = always
 [core]
     editor = nvim
+[commit]
+    verbose = true
