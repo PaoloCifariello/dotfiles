@@ -3,9 +3,9 @@
     name = Paolo Cifariello
     email = paolocifa@gmail.com
 [ui "color"]
-	ui = always
+    ui = always
 [color]
-	ui = true
+    ui = true
 [github]
     user = PaoloCifariello
 [alias]
