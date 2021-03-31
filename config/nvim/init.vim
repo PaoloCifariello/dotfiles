@@ -98,13 +98,15 @@ call plug#end()
 
 syntax on
 filetype plugin indent on
+
 " make the highlighting of tabs and other non-text less annoying
 highlight SpecialKey ctermfg=19
 highlight NonText ctermfg=19
-
-" highlight Type cterm=italic term=italic gui=italic
 highlight Normal ctermbg=none
 
-" set the colorscheme
-autocmd vimenter * colorscheme gruvbox
+" deal with colors
+let base16colorspace=256
+hi Normal ctermbg=NONE
+
+colorscheme base16-gruvbox-dark-pale
 

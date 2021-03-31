@@ -4,8 +4,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Dracula
 Plug 'dracula/vim', { 'as': 'dracula' }
 
-" gruvbox colorscheme
-Plug 'gruvbox-community/gruvbox'
+" base-16 colors
+Plug 'chriskempson/base16-vim'
 
 " Load colorschemes
 Plug 'chriskempson/base16-vim'
